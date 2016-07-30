@@ -27,7 +27,7 @@ gulp.task('bundle', function () {
     './public/bower_components/bootstrap/dist/js/bootstrap.js',
     './public/bower_components/react/react.js',
     './public/bower_components/react/react-dom.js',
-    './public/jsx/*.js'])
+    './public/js/*.js'])
     .pipe(concat('bundle.js'))
     .pipe(gulp.dest('./public/dist/'));
 });
